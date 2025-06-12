@@ -104,3 +104,52 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 600px) {
+    .weather {
+        width: 90%;
+        padding: 20px;
+        margin: 50px auto 0;
+        border-radius: 30px;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search input {
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .search button {
+        margin-top: 10px;
+        align-self: center;
+    }
+
+    .weatherreport h1 {
+        font-size: 40px;
+    }
+
+    .weatherreport h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .col {
+        flex-direction: column;
+        gap: 5px;
+        margin: 0;
+    }
+
+    .col img {
+        margin-left: 0;
+    }
+}
