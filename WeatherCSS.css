@@ -148,6 +148,10 @@ body {
   .col img {
     margin: 0;
   }
+
+  #suggestions {
+
+  }
 }
 
 #suggestions {
@@ -159,13 +163,11 @@ body {
   color: black;
   margin: 0;
   padding: 0;
-  border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0.95);
-  opacity: 0.5;
-  max-height: 50px;
+  background: linear-gradient(rgb(185, 185, 218), rgb(210, 159, 186), rgb(162, 158, 218));
+  opacity: 50%;
+  max-height: 180px;
   overflow-y: auto;
-  z-index: 100;
-  border-radius: 20px;
+  border-radius: 40px;
   
 }
 
@@ -175,6 +177,3 @@ body {
   font-size: 20px;
 }
 
-#suggestions li:hover {
-  background: white;
-}

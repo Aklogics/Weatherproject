@@ -61,7 +61,7 @@ name1.addEventListener("input", async (a) => {
     const li = document.createElement("li");
     li.textContent = `${city.name}${city.state ? ', ' + city.state : ''}, ${city.country}`;
     li.addEventListener("click", () => {
-      name1.value = city.name;
+      name1.value = "";
       suggestions.innerHTML = "";
       checkWeather(city.lat, city.lon);
     });
